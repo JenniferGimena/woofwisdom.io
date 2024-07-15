@@ -1,0 +1,273 @@
+.bg-brown {
+    background: #2f1313;
+}
+
+#Home {
+    background-image: linear-gradient(80deg, hsla(0, 0%, 0%, 0.855), rgba(37, 37, 37, 0.773)), url('../img/bg1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navbar-nav {
+    gap: 5px;
+}
+
+.nav-link {
+    padding: 10px;
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 3px solid #ae6427;
+    color: #ae6427;
+    transition: .1s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e5cd6c22;
+    color: #ae6427;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+section {
+    padding: 100px 20px;
+    transition: 2s;
+}
+
+.border-brown {
+    border: 5px solid #ae6427;
+}
+
+.text-brown {
+    color: #ae6427;
+}
+
+/* button */
+
+.btn-outline-brown {
+    border-radius: 0 !important;
+    border: 1px solid #e5cd6c;
+    color: #e5cd6c;
+}
+
+.btn-outline-brown:hover {
+    background-color: #e5cd6c37;
+    border: 1px solid #e5cd6c;
+    color: #e5cd6c;
+}
+
+.border-start-1 {
+    border-radius: 0 !important;
+    border: 1px solid #e5cd6c;
+    color: #e5cd6c;
+}
+
+.border-start-1:hover {
+    background-color: #e5cd6c37;
+    border-radius: 0 !important;
+    border: 1px solid #e5cd6c;
+    color: #e5cd6c;
+}
+
+.border-end-1 {
+    border-radius: 0 !important;
+    border: 1px solid #e5cd6c;
+    color: #e5cd6c;
+}
+
+.text-light-brown {
+    color: #e5cd6c;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.card-brown {
+    border-radius: 0 !important;
+    border: 1px solid #2f1313;
+}
+
+.card-outline-brown {
+    border: 1px solid #2f1313;
+}
+
+.card-brown:hover {
+    background-color: #2f131337;
+    border: 1px solid #2f1313;
+    color: #2f1313;
+}
+
+.home {
+    min-height: 90vh;
+    padding: 50px 20px;
+}
+
+.padd {
+    padding: 50px 20px;
+}
+
+#About {
+    background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.489), rgba(73, 72, 72, 0.39)), url('../img/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+#Services {
+    min-height: 90vh;
+}
+
+
+#Explore {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.901), rgba(73, 72, 72, 0.518)), url('../img/bg.png');
+    min-height: 90vh;
+}
+
+#offers {
+    min-height: 90vh;
+}
+
+#offers .img:hover {
+    box-shadow: 1px 1px 5px 4px #2f131375 !important;
+}
+
+#Footer {
+    min-height: 40%;
+}
+
+.accordion-button {
+    color: #2f1313 !important;
+    border: 2px solid #2f1313 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: #2f1313 !important;
+    opacity: .9;
+}
+
+.accordion-button:hover:not(.collapse) {
+    color: #2f1313 !important;
+    background: #2f131341 !important;
+}
+
+.accordion-button::after {
+    content: "";
+
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: "";
+}
+
+.accordion-collapse {
+    border: 1px solid #2f1313 !important;
+    border-left: 5px solid #2f131399 !important;
+}
+
+.border-top {
+    border-top: 1px solid #2f1313 !important;
+}
+
+input:focus {
+    box-shadow: 0px 0px 4px 1px #2f1313 !important;
+}
+
+.padding-main {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 18px;
+    }
+
+    .home {
+        padding: 0px;
+    }
+
+    .padd {
+        padding: 0px;
+    }
+
+    .padding-main {
+        padding: 2px;
+    }
+
+    .navbar-nav {
+        gap: 1px !important;
+    }
+
+    .nav-link {
+        padding: 2px !important;
+        text-align: center !important;
+    }
+
+    .navbar-nav .nav-link.active {
+        border-bottom: 1px solid #ae6427;
+        background-color: #ae642726;
+        color: #ae6427;
+        transition: .1s;
+    }
+
+    .context {
+        margin-top: -20% !important;
+        text-align: center;
+
+    }
+
+
+    .fs-7 {
+        font-size: 18px !important;
+    }
+
+
+    .context-2 {
+        text-align: center;
+    }
+
+    .context-3 {
+        margin-left: -7% !important;
+        margin-right: -7% !important;
+        padding-left: -7% !important;
+        padding-right: -7% !important;
+    }
+
+    .context-4 {
+        margin-top: -25% !important;
+        margin-bottom: 22% !important;
+    }
+
+    #offers .btn-outline-brown {
+        margin-top: 10px !important;
+    }
+}
